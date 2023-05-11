@@ -1,8 +1,8 @@
 ---
-layout: home
-title: Projets
+layout: projects
+title: Travaux
 eleventyNavigation:
-  key: Projets
+  key: Travaux
   order: 2
 entries:
   - portfolio-starter
