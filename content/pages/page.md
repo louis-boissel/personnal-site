@@ -6,8 +6,6 @@ eleventyNavigation:
   order: 3
 ---
 
-Contenu de la page
-
 This is a lightweight portfolio starter kit by Sam Baldwin and Piper Haywood. The thinking behind it comes from a decade of experience designing and building portfolios for designers, illustrators, architects, and other people that want to share their work and activity online.
 
 Portfolio Starter is lightweight and open source. The intended user may not know how to code but is interested in the tech behind their website, is willing to write in Markdown, and is happy to follow a few instructions. The codebase is deliberately basic to encourage tinkering and customisation for everyone, including a beginner that is just beginning to learn why alt text is important (hint: it’s really important). Since it uses the static site generator Eleventy, Portfolio Starter can be hooked up to free static hosting providers such as Netlify or ZEIT Now.
