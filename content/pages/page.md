@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Test
+title: Ressources
 eleventyNavigation:
-  key: Test
-  order: 4
+  key: Ressources
+  order: 3
 ---
 
 Contenu de la page
