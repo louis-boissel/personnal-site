@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About
+title: À propos
 eleventyNavigation:
-  key: About
+  key: À propos
   order: 1
 ---
 
