@@ -1,7 +1,7 @@
 ---
 eleventyNavigation:
-  key: GitHub &nearr;
+  key: Lien &nearr;
   order: 3
-  url: http://github.com/sb-ph/portfolio-starter
+  url: https://www.linkedin.com/in/louis-boissel-396122162/
 permalink: false
 ---
