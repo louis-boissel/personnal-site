@@ -3,6 +3,11 @@ layout: base
 permalink: "/"
 ---
 
+<div class="home-intro">
+  {{ content | safe }}
+</div>
+
+
 {% set entries = collections.all | getPagesByPaths(entries) if entries else collections.projects %}
 
 {# For each of the entries #}
