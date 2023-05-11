@@ -9,4 +9,4 @@ entries:
   - sample-project-traffic-signs
 ---
 
-A starter kit for static portfolio sites. Lightweight, customisable, open source. By [Piper Haywood](https://piperhaywood.com) and [Sam Baldwin](https://sambaldwin.info). Have a look around, or [take a look at the documentation](https://github.com/sb-ph/portfolio-starter) and make your own site for free.
+Diplômé en 2021 de l’Université de Technologie de Compiègne (UTC) en tant qu’ingénieur en génie mécanique, spécialisé en design industriel, mon approche de la conception trouve ses racines dans la connaissance, l’apprentissage et l’usage des savoirs-faire techniques.
