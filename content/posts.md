@@ -2,6 +2,6 @@
 layout: posts
 title: Blog
 eleventyNavigation:
-  key: News
+  key: Actualités
   order: 2
 ---
