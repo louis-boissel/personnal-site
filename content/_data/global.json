@@ -1,8 +1,8 @@
 {
   "title": "Louis Boissel",
-  "lang": "en-gb",
+  "lang": "fr",
   "footer": "Built with [Portfolio Starter](https://portfolio-starter.sb-ph.com) (v{{ pkg.version }}) by [Piper Haywood](https://piperhaywood.com) and [Sam Baldwin](https://sambaldwin.info)",
-  "url": "https://portfolio-starter.sb-ph.com",
+  "url": "https://louis-boissel.netlify.app/",
   "author": {
     "name": "Louis Boissel",
     "email": "mail@sb-ph.com"
