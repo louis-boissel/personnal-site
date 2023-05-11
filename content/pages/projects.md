@@ -4,10 +4,14 @@ title: Projets
 eleventyNavigation:
   key: Projets
   order: 2
+entries:
+  - portfolio-starter
+  - sample-project-muybridge
+  - sample-project-optics
+  - sample-project-eames
+  - sample-project-letters
+  - sample-project-traffic-signs
 ---
 
-This is a lightweight portfolio starter kit by [Sam Baldwin](https://sambaldwin.info) and [Piper Haywood](https://piperhaywood.com). The thinking behind it comes from a decade of experience designing and building portfolios for designers, illustrators, architects, and other people that want to share their work and activity online.
+Diplômé en 2021 de l’Université de Technologie de Compiègne (UTC) en tant qu’ingénieur en génie mécanique, spécialisé en design industriel, mon approche de la conception trouve ses racines dans la connaissance, l’apprentissage et l’usage des savoirs-faire techniques.
 
-Portfolio Starter is lightweight and open source. The intended user may not know how to code but is interested in the tech behind their website, is willing to write in Markdown, and is happy to follow a few instructions. The codebase is deliberately basic to encourage tinkering and customisation for everyone, including a beginner that is just beginning to learn why `alt` text is important (hint: it’s really important). Since it uses the static site generator [Eleventy](https://www.11ty.dev/), Portfolio Starter can be hooked up to free static hosting providers such as Netlify or ZEIT Now.
-
-[Check out the documentation](https://github.com/sb-ph/portfolio-starter) to start experimenting, you can get a website online with the click of a few buttons. If you give it a try, [let us know](mailto:mail@sb-ph.com)! We’d love to see how people use it and where they take it.
