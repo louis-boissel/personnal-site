@@ -1,5 +1,5 @@
 ---
-layout: page-projets
+layout: home
 title: Projets
 eleventyNavigation:
   key: Projets
