@@ -1,32 +1,49 @@
-<!doctype html>
-<html lang="{{ global.lang }}">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title ~ ' – ' ~ global.title if title else global.title }}</title>
-    <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
-    {% include 'snippets/meta.njk' %}
-  </head>
-  <body>
-  
-    <header class="site-header">
-      <h1 class="site-name">
-        <a href="{{ '/' | url }}">{{ global.title }}</a>
-      </h1>
-      <nav class="site-nav">
-        {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
-      </nav>
-    </header>
+---
+layout: page
+permalink: "/"
+---
 
-    <main class="site-main">
-      {{ content | safe }}
-    </main>
+<div class="home-intro">
+  {{ content | safe }}
+</div>
 
-    {% if global.footer %}
-      <footer class="site-footer">
-        <p>{{ global.footer | markdownifyInline | safe }}</p>
-      </footer>
+
+{% set entries = collections.all | getPagesByPaths(entries) if entries else collections.projects %}
+
+{# For each of the entries #}
+{% for entry in entries %}
+
+  {# Set the defaults #}
+  {% set image = false %}
+  {% set width = false %}
+  {% set height = false %}
+  {% set blockClasses = 'md' %}
+
+  {# If the entry has media #}
+  {% if entry.data.media %}
+    {# Get the first featured image block #}
+    {% set block = entry.data.media | getFeaturedImage %}
+    {% if block %}
+      {% set blockClasses = block.size if block.size %}
+      {% set image = block.filename | urlencode %}
+      {% set width = block.width if block.width else false %}
+      {% set height = block.height if block.height else false %}
     {% endif %}
+  {% endif %}
 
-  </body>
-</html>
+  {# If there is an image we can use #}
+  {% if image %}
+    <article class="home-block {{ blockClasses }}">
+      <a href="{{ entry.url }}">
+        <img
+          loading="lazy"
+          src="/media/{{ image }}"
+          alt=""
+          {% if width %}width="{{ width }}"{% endif %}
+          {% if height %}height="{{ height }}"{% endif %}
+        >
+        <h2 class="home-block-title">{{ entry.data.title | safe }}</h2>
+      </a>
+    </article>
+  {% endif %}
+{% endfor %}
