@@ -1,12 +1,12 @@
 ---
-title: Louis Boissel
+title: Profil
 layout: project
-dateEnd: 2020-04-07 19:00:00
+dateEnd: 2023-05-12 19:34:00
 media:
   - type: image
-    filename: poster.gif
+    filename: profil.png
     size: md
-    alt: Poster for Portfolio Starter
+    alt: Profil picture
 ---
 
-A starter kit for static portfolio sites. Lightweight, customisable, open source. By [Piper Haywood](https://piperhaywood.com) and [Sam Baldwin](https://sambaldwin.info). [Get started](https://github.com/sb-ph/portfolio-starter)!
+site en travaux
