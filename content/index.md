@@ -1,9 +1,8 @@
 ---
 layout: home
+entries:
+  - portfolio-starter
 ---
-
-<!--entries:
-  - portfolio-starter-->
 
 Ingénieur - Designer  • Redirection écologique
 *Site en travaux*
