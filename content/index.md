@@ -1,6 +1,6 @@
 ---
 layout: home
- entries:
+entries:
   - portfolio-starter
   - sample-project-muybridge
   - sample-project-optics
@@ -9,4 +9,4 @@ layout: home
   - sample-project-traffic-signs
 ---
 
- Ingénieur en génie mécanique, spécialisé en design industriel, mon approche de la conception trouve ses racines dans la connaissance, l’apprentissage et l’usage des savoirs-faire techniques.
+Ingénieur en génie mécanique, spécialisé en design industriel, mon approche de la conception trouve ses racines dans la connaissance, l’apprentissage et l’usage des savoirs-faire techniques.
