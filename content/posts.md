@@ -1,7 +1,7 @@
 ---
 layout: posts
-title: Actualités
+title: Articles
 eleventyNavigation:
-  key: Actualités
-  order: 1
+  key: Articles
+  order: 2
 ---
