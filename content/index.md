@@ -4,4 +4,4 @@ entries:
   - portfolio-starter
 ---
 
-Ingénieur - Designer  • Redirection écologique
+Designer  •  Ingénieur  •  Redirection écologique
