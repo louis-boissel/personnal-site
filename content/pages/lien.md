@@ -1,7 +1,7 @@
 ---
 eleventyNavigation:
   key: À propos &nearr;
-  order: 3
+  order: 4
   url: https://www.linkedin.com/in/louis-boissel-396122162/
 permalink: false
 ---
