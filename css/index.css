@@ -77,8 +77,8 @@ html {
 }
 
 body {
-  color : #FFFFF4;
-  background-color : #854F08;
+  color : #854F08;
+  background-color : #EEFFEE;
   font-family: var(--font-family);
   font-size: var(--font-size-body);
   font-weight: var(--font-weight-normal);
