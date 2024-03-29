@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: projects
 title: Projets
 eleventyNavigation:
   key: Projets
@@ -8,4 +8,4 @@ entries:
   - portfolio-starter
 ---
 
-*en travaux* avec projet ?
+*en travaux*
