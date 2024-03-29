@@ -1,9 +1,9 @@
 ---
 layout: base
-permalink: "projets/"
+permalink: "/projets/"
 ---
 
-<div class="home-intro">
+<div class="projects">
   {{ content | safe }}
 </div>
 
@@ -33,7 +33,7 @@ permalink: "projets/"
 
   {# If there is an image we can use #}
   {% if image %}
-    <article class="home-block {{ blockClasses }}">
+    <article class="block {{ blockClasses }}">
       <a href="{{ entry.url }}">
         <img
           loading="lazy"
@@ -42,7 +42,7 @@ permalink: "projets/"
           {% if width %}width="{{ width }}"{% endif %}
           {% if height %}height="{{ height }}"{% endif %}
         >
-        <h2 class="home-block-title">{{ entry.data.title | safe }}</h2>
+        <h2 class="block-title">{{ entry.data.title | safe }}</h2>
       </a>
     </article>
   {% endif %}
