@@ -3,5 +3,5 @@ layout: posts
 title: Articles
 eleventyNavigation:
   key: Articles
-  order: 2
+  order: 1
 ---
