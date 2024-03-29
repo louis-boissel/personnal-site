@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: home
 title: Projets
 eleventyNavigation:
   key: Projets
-  order: 1
+  order: 2
 ---
 
 *en travaux*
