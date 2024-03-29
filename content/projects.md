@@ -1,9 +1,11 @@
 ---
 layout: home
 title: Projets
-eleventyNavigation:
-  key: Projets
-  order: 2
+entries:
+  - portfolio-starter
 ---
 
 *en travaux*
+eleventyNavigation:
+  key: Projets
+  order: 2
